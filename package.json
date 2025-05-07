@@ -1,0 +1,15 @@
+{
+  "name": "2-type-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "build": "rm -rf dist && mkdir dist && tsc && cp ./src/index.html ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
