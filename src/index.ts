@@ -19,7 +19,6 @@ type Products = {
   sku: string;
   weight: number;
   dimensions: Dimensions;
-
   warrantyInformation: WarrantyInformation;
   shippingInformation: ShippingInformation;
   availabilityStatus: 'In Stock' | 'Low Stock';
