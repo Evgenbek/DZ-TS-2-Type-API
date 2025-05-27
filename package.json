@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "build": "rm -rf dist && mkdir dist && tsc && cp ./src/index.html ./dist"
+    "build": "rm -rf dist && mkdir dist && tsc && cp ./src/index.html ./dist",
+    "start": "http-server ./dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "http-server": "14.1.1",
     "typescript": "5.8.3"
   }
 }
